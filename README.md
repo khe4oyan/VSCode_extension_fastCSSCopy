@@ -1,5 +1,7 @@
 # Fast CSS Copy
 
+Link to extension: https://marketplace.visualstudio.com/items?itemName=FastCSSCopy-khc.fastcopy-css-khc
+
 ## Features
 
 Speed up development by copying styles from HTML to CSS with a single keyboard shortcut
