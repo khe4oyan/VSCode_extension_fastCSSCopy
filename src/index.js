@@ -1,7 +1,8 @@
+// libs
 const vscode = require('vscode');
 
 function activate(context) {
-	const disposable = vscode.commands.registerCommand('khc.copyStyles', async () => {
+	const disposable = vscode.commands.registerCommand('fastCssCopy.copyStyles', async () => {
 		const htmlMarkers = {
 			start: '<!-- start -->',
 			end: '<!-- end -->',
@@ -126,9 +127,7 @@ async function CSS_MARKERS(startMarker, endMarker) {
 	return null;
 }
 
-function deactivate() { }
-
 module.exports = {
 	activate,
-	deactivate
+	deactivate: () => {},
 };

@@ -2,24 +2,32 @@
   "name": "fastcopy-css-khc",
   "displayName": "Fast CSS Copy",
   "description": "Speed up development by copying styles from HTML to CSS with a single keyboard shortcut",
-  "version": "0.0.1",
-  "publisher": "FastCSSCopy-khc",
+  "version": "1.0.0",
+  "publisher": "khechoyan",
   "engines": {
     "vscode": "^1.85.0"
   },
+  "author": {
+    "name": "Khechoyan"
+  },
+  "main": "./src/extension.js",
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
-  "main": "./extension.js",
+  "icon": "logo.png",
+  "galleryBanner": {
+    "color": "#00003D",
+    "theme": "dark"
+  },
   "contributes": {
     "commands": [
       {
-        "command": "khc.copyStyles",
-        "title": "Fast Copy Styles"
+        "command": "fastCssCopy.copyStyles",
+        "title": "Copy Styles"
       }
     ]
   },
+  "activationEvents": [],
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
