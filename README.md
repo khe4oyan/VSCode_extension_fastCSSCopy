@@ -1,6 +1,6 @@
 # Fast CSS Copy
 
-Link to extension: [VSCode Marketplace - Fast CSS Copy](https://marketplace.visualstudio.com/items?itemName=FastCSSCopy-khc.fastcopy-css-khc)
+Link to extension: [VSCode Marketplace - Fast CSS Copy](https://marketplace.visualstudio.com/items?itemName=khechoyan.fast-css-copy&ssr=false#overview)
 
 ## Features
 
